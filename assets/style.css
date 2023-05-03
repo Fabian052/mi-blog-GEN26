@@ -134,10 +134,10 @@
 }
 
 .article-link {
-  transition: box-shadow 0.7s ease-in-out;
+  transition: box-shadow 0.1s ease-in-out;
   background: #000;
   border-radius: 15px;
-  box-shadow: 0 0 .6rem rgba(255, 255, 255, .8);
+  box-shadow: 0 0 .6rem rgba(255, 255, 255, .4);
   color: #fff;
   padding: 10px 7px;
 }
@@ -225,6 +225,11 @@
   color: #fff;
 }
 
+.footer-link:hover {
+  transition: text-shadow .2s ease;
+  text-shadow: 0 3px 5px rgba(255, 255, 255, .8);
+}
+
 /* 
   Responsive
 */
@@ -263,7 +268,7 @@
   }
 
   .articles .article:hover {
-    transition: box-shadow 0.5s ease;
+    transition: box-shadow 0.3s ease;
     box-shadow: 0 0 1.4rem rgba(255, 255, 255, 1);
   }
   
